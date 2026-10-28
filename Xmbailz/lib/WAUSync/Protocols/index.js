@@ -1,0 +1,12 @@
+Object.assign(module.exports, require('./USyncDeviceProtocol.js'));
+Object.assign(module.exports, require('./USyncContactProtocol.js'));
+Object.assign(module.exports, require('./USyncStatusProtocol.js'));
+Object.assign(module.exports, require('./USyncDisappearingModeProtocol.js'));
+Object.assign(module.exports, require('./USyncUsernameProtocol.js'));
+Object.assign(module.exports, require('./USyncBotProfileProtocol.js'));
+Object.assign(module.exports, require('./USyncLIDProtocol.js'));
+Object.assign(module.exports, require('./USyncBusinessProtocol.js'));
+Object.assign(module.exports, require('./USyncPictureProtocol.js'));
+Object.assign(module.exports, require('./USyncTextStatusProtocol.js'));
+Object.assign(module.exports, require('./USyncSidelistProtocol.js'));
+Object.assign(module.exports, require('./USyncFeatureProtocol.js'));

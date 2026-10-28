@@ -1,0 +1,15 @@
+Object.assign(module.exports, require('./make-cache-manager-store.js'));
+Object.assign(module.exports, require('./make-in-memory-store.js'));
+Object.assign(module.exports, require('./make-ordered-dictionary.js'));
+Object.assign(module.exports, require('./object-repository.js'));
+Object.assign(module.exports, require('./keyed-db.js'));
+const _re_5 = require('./make-cache-manager-store.js');
+module.exports.makeCacheManagerStore = _re_5.default;
+const _re_7 = require('./make-in-memory-store.js');
+module.exports.makeInMemoryStore = _re_7.default;
+const _re_9 = require('./make-ordered-dictionary.js');
+module.exports.makeOrderedDictionary = _re_9.default;
+const _re_11 = require('./object-repository.js');
+module.exports.objectRepository = _re_11.default;
+const _re_13 = require('./keyed-db.js');
+module.exports.keyedDB = _re_13.default;
